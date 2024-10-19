@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Selling Website</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+    <header class="header">
+        <h1>My Product Store</h1>
+        <div class="cart">
+            <button id="cart-button">Cart (<span id="cart-count">0</span>)</button>
+        </div>
+    </header>
+
+    <main class="product-container" id="product-container">
+        <!-- Products will be dynamically added here by JavaScript -->
+    </main>
+
+    <div class="cart-popup" id="cart-popup">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <p id="cart-total">Total: $0.00</p>
+        <button id="checkout-button">Checkout</button>
+        <button id="close-cart">Close</button>
+    </div>
+
+    <script src="website.js"></script>
+</body>
+</html>
